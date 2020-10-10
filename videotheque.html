@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Videotheque</title>
+    <link rel="stylesheet" href="videotheque.css">
+</head>
+
+<body>
+    <header>
+        <div id="menu_container">
+            <div class="menu">
+                <div class="menu1"><a href="videotheque.html">
+                        <div class="accueil">
+                            <p>Catégories</p>
+                        </div>
+                    </a>
+                    <ul>
+                        <a href="categorie1.html" class="aventure">
+                            <li>Aventure</li>
+                        </a>
+                        <a href="categorie2.html" class="action">
+                            <li>Action</li>
+                        </a>
+                        <a href="categorie3.html" class="horreur">
+                            <li>Horreur</li>
+                        </a>
+                        <a href="categorie4.html" class="thriller">
+                            <li>Thriller</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="menu2">
+                    <p>Connexion</p>
+                </div>
+                <div class="menu3">
+                    <p>Contact</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="accueil">
+        <h1 id="titreaccueil">Notre Videotheque en bref</h1>
+        <section class="sliderp">
+            <article id="navslider">
+                <a class="anchorlinks" href="#slide-1">1</a>
+                <a class="anchorlinks" href="#slide-2">2</a>
+                <a class="anchorlinks" href="#slide-3">3</a>
+                <a class="anchorlinks" href="#slide-4">4</a>
+            </article>
+            <section class="slidescontainer">
+                <div class="boxpadding" id="slide-1">
+                    <article class="slide">
+                        <iframe width="450" height="315" src="https://www.koreus.com/embed/relancer-helice-avion-vol"  frameborder="0" allowfullscreen></iframe>
+						<a href="categorie1.html">Categorie 1
+                        </a>
+                    </article>
+                </div>
+                <div class="boxpadding" id="slide-2">
+                    <article class="slide">
+                        <video class="slidevideo" controls muted autoplay loop>
+                            <source src="./Ressources/ghostintheshell.mp4" type="video/mp4">
+                        </video>
+                        <a href="categorie2.html">Categorie 2</a>
+                    </article>
+                </div>
+                <div class="boxpadding" id="slide-3">
+                    <article class="slide">
+                        <video class="slidevideo" controls muted autoplay loop>
+                            <source src="./Ressources/albator.mp4" type="video/mp4">
+                        </video>
+                        <a href="categorie3.html">Categorie 3
+                        </a>
+                    </article>
+                </div>
+                <div class="boxpadding" id="slide-4">
+                    <article class="slide">
+                         <iframe width="450" height="315" src="https://www.koreus.com/embed/feu-friteuse-fail"  frameborder="0" allowfullscreen></iframe>
+                        <a href="categorie4.html">Categorie 4
+                        </a>
+                    </article>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div id="link_container">
+            <div class="link">
+                <div class="link_group1">
+                    <a href="categorie1.html">
+                        <p>Aventure</p>
+                    </a>
+                    <a href="categorie1.html">
+                        <p>Action</p>
+                    </a>
+                    <a href="categorie1.html">
+                        <p>Horreur</p>
+                    </a>
+                    <a href="categorie1.html">
+                        <p>Thriller</p>
+                    </a>
+                </div>
+                <div class="link_group2">
+                    <a href="#">
+                        <p>Connexion</p>
+                    </a>
+                    <a href="#">
+                        <p>Contact</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
